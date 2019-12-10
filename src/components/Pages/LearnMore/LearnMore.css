@@ -1,0 +1,26 @@
+.learnMore__container {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 0px;
+}
+.video-a--main {
+  height: 50%;
+  width: 90%;
+}
+.thumbnail iframe {
+  width: 1440px;
+  height: 900px;
+}
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail-container {
+  width: 100%;
+  height: calc(900px * 0.25);
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}

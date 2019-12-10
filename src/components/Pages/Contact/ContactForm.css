@@ -1,0 +1,96 @@
+.wrapper {
+  padding: 0 1.5em;
+}
+
+.contact-form {
+  border-radius: 5px;
+  display: flex;
+}
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.input-fields,
+.msg {
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+  margin: 0.5rem 0.5rem;
+  background: transparent;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.msg textarea {
+  height: 20em;
+}
+
+::-webkit-input-placeholder {
+  color: #c5ecfd;
+}
+
+.btn--contact {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 3em;
+  width: 100%;
+}
+.card-title h3 {
+  padding: 0;
+}
+.contactMainImg {
+  position: absolute;
+  background: #333
+    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_11m36-s65En04cAmrhNc36HpNtF6ucm-obqbeGMe2wk2qTn6&s');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+@media (min-width: 699px) {
+  #contactImg {
+    display: none;
+  }
+  #lrg-screen-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact-form {
+    flex-direction: column;
+  }
+  .msg textarea {
+    height: 80px;
+  }
+  .input-fields,
+  .msg {
+    width: 100%;
+  }
+  .btn-lrg-show {
+    display: none;
+  }
+  .input-fields .input,
+  .msg textarea {
+    margin: 0.5rem 0.5rem;
+    background: transparent;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+  }
+}

@@ -1,0 +1,114 @@
+.card {
+  margin-bottom: 30px;
+  border: none;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
+  -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
+  box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  /* background-color: #fff; */
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6f2;
+  margin-top: 5em;
+}
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+.card-footer {
+  border-top: 1px solid #e6e6f2;
+  background: #f6f6ff;
+}
+.text-center {
+  text-align: center !important;
+}
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+.list-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.list-group-flush:first-child .list-group-item:first-child {
+  border-top: 0;
+}
+.list-group-flush .list-group-item {
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 16px 20px;
+  margin-bottom: -1px;
+  border: 1px solid #e6e6f2;
+  text-align: left;
+}
+.traffic-sales-amount {
+  float: right;
+  color: #3d405c;
+  display: flex;
+  justify-content: space-around;
+}
+.icon-box-xs {
+  height: 20px;
+  width: 20px;
+  margin-right: 1em !important;
+  margin-left: 1em !important;
+}
+.icon-circle-small {
+  line-height: 1;
+  padding: 4px 2px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 100%;
+}
+.text-success {
+  color: #2ec551 !important;
+}
+.bg-success-light {
+  background-color: #c5fad3 !important;
+}
+.btn-primary-link {
+  color: #fff !important;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 8px;
+}
